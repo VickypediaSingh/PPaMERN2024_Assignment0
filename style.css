@@ -1,0 +1,52 @@
+:root {
+    --orange:rgba(231,130,62,255);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: white;
+}
+
+h1 {
+    color: var(--orange); /* Use the variable --orange as the text color for h1 elements */
+}
+
+h3 {
+  color: rgba(231,130,62,255);
+  text-decoration: underline;
+}
+
+header {
+    background-color: #111;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+    border: 1px solid #555;
+    padding: 10px;
+}
